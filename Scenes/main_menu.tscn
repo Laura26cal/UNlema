@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://d3lmew3h56na3"]
 
 [ext_resource type="Texture2D" uid="uid://cykgvjxfgoolh" path="res://icon.svg" id="1_28flt"]
+[ext_resource type="Script" uid="uid://bj3o4md0fe4wk" path="res://Scripts/main_menu.gd" id="1_48xlc"]
 
 [node name="MainMenu" type="Control" unique_id=1134867910]
 layout_mode = 3
@@ -9,6 +10,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_48xlc")
 
 [node name="CenterContainer" type="CenterContainer" parent="." unique_id=148047645]
 layout_mode = 1
@@ -34,7 +36,9 @@ custom_minimum_size = Vector2(250, 60)
 layout_mode = 2
 text = "Juega ya"
 
-[node name="InstrucctionsButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=1916736975]
+[node name="InstructionsButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=1916736975]
 custom_minimum_size = Vector2(250, 60)
 layout_mode = 2
 text = "Instrucciones"
+
+[connection signal="pressed" from="CenterContainer/VBoxContainer/InstructionsButton" to="." method="_on_instructions_button_pressed"]

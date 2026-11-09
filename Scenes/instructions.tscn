@@ -1,0 +1,77 @@
+[gd_scene format=3 uid="uid://byj2yc5msto8t"]
+
+[ext_resource type="Script" uid="uid://dhg0uv8vofvyh" path="res://Scripts/instructions.gd" id="1_8p7yn"]
+
+[node name="Instructions" type="Control" unique_id=1930346299]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_8p7yn")
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1325164124]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=2107995935]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Title" type="Label" parent="CenterContainer/VBoxContainer" unique_id=1024588946]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "INSTRUCCIONES"
+horizontal_alignment = 1
+
+[node name="ControlsGrid" type="GridContainer" parent="CenterContainer/VBoxContainer" unique_id=1190106942]
+layout_mode = 2
+theme_override_constants/h_separation = 40
+theme_override_constants/v_separation = 20
+columns = 2
+
+[node name="MovementLabel" type="Label" parent="CenterContainer/VBoxContainer/ControlsGrid" unique_id=398417019]
+custom_minimum_size = Vector2(260, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Moverse"
+
+[node name="MovementKeys" type="Label" parent="CenterContainer/VBoxContainer/ControlsGrid" unique_id=1108852082]
+layout_mode = 2
+text = "WSAD / ↑ ↓ ←→"
+horizontal_alignment = 1
+
+[node name="InteractLabel" type="Label" parent="CenterContainer/VBoxContainer/ControlsGrid" unique_id=1588449821]
+custom_minimum_size = Vector2(260, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Interactuar
+(cerca de personas y objetos)"
+
+[node name="InteractKeys" type="Label" parent="CenterContainer/VBoxContainer/ControlsGrid" unique_id=611527471]
+layout_mode = 2
+text = "E"
+horizontal_alignment = 1
+
+[node name="NotebookLabel" type="Label" parent="CenterContainer/VBoxContainer/ControlsGrid" unique_id=1704489025]
+custom_minimum_size = Vector2(260, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Abrir la libreta"
+
+[node name="NotebookKeys" type="Label" parent="CenterContainer/VBoxContainer/ControlsGrid" unique_id=112580558]
+layout_mode = 2
+text = "I"
+horizontal_alignment = 1
+
+[node name="BackButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=220547155]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Volver"
+
+[connection signal="pressed" from="CenterContainer/VBoxContainer/BackButton" to="." method="_on_back_button_pressed"]
