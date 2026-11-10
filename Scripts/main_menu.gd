@@ -11,5 +11,7 @@ func _process(delta):
 	pass
 
 func _on_instructions_button_pressed():
-	print("¡Se presionó el botón de instrucciones!")
 	get_tree().change_scene_to_file("res://Scenes/instructions.tscn")
+
+func _on_play_button_pressed():
+	get_tree().change_scene_to_file("res://Scenes/character_select.tscn")

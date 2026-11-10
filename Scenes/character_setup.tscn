@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://brawkq8witlrc"]
+
+[ext_resource type="Script" uid="uid://cmcabxtpe1qel" path="res://Scripts/character_setup.gd" id="1_2ksni"]
+
+[node name="CharacterSetup" type="Control" unique_id=1569568387]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_2ksni")
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=251965428]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 3.0
+offset_top = -3.0
+offset_right = 3.0
+offset_bottom = -3.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=1478256580]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="CharacterName" type="Label" parent="CenterContainer/VBoxContainer" unique_id=1326317110]
+layout_mode = 2
+horizontal_alignment = 1
+
+[node name="CharacterPreview" type="TextureRect" parent="CenterContainer/VBoxContainer" unique_id=1088187971]
+custom_minimum_size = Vector2(128, 128)
+layout_mode = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="NameLabel" type="Label" parent="CenterContainer/VBoxContainer" unique_id=2082624954]
+layout_mode = 2
+text = "Escribe el nombre de tu personaje"
+
+[node name="NameInput" type="LineEdit" parent="CenterContainer/VBoxContainer" unique_id=923005567]
+layout_mode = 2
+placeholder_text = "Escribe un nombre..."
+
+[node name="ContinueButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=249942114]
+layout_mode = 2
+text = "Continuar"
+
+[node name="BackButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=864384932]
+layout_mode = 2
+text = "Volver"
+
+[connection signal="pressed" from="CenterContainer/VBoxContainer/BackButton" to="." method="_on_back_button_pressed"]

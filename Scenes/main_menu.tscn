@@ -17,6 +17,7 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_bottom = 6.1035156e-05
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -41,4 +42,5 @@ custom_minimum_size = Vector2(250, 60)
 layout_mode = 2
 text = "Instrucciones"
 
+[connection signal="pressed" from="CenterContainer/VBoxContainer/PLayButton" to="." method="_on_play_button_pressed"]
 [connection signal="pressed" from="CenterContainer/VBoxContainer/InstructionsButton" to="." method="_on_instructions_button_pressed"]
