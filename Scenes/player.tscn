@@ -3,9 +3,9 @@
 [ext_resource type="Script" uid="uid://dmvpu4uknhy0v" path="res://Scripts/player.gd" id="1_cvnsp"]
 [ext_resource type="Texture2D" uid="uid://broci3hfjmsih" path="res://Assets/player/npcEspecial.png" id="2_6t5aa"]
 [ext_resource type="Script" uid="uid://ba8d6j3qlu5dx" path="res://Scripts/state_machine.gd" id="3_6t5aa"]
-[ext_resource type="Script" uid="uid://b4ie6dka3o4sy" path="res://Scenes/idle.gd" id="4_vgqql"]
-[ext_resource type="Script" uid="uid://bnw7wbccsq8pl" path="res://Scenes/walk.gd" id="5_fkybt"]
-[ext_resource type="Script" uid="uid://dem647cq8681y" path="res://Scenes/interactuar.gd" id="6_x3wgy"]
+[ext_resource type="Script" uid="uid://b4ie6dka3o4sy" path="res://Scripts/idle.gd" id="4_vgqql"]
+[ext_resource type="Script" uid="uid://bnw7wbccsq8pl" path="res://Scripts/walk.gd" id="5_fkybt"]
+[ext_resource type="Script" uid="uid://dem647cq8681y" path="res://Scripts/interactuar.gd" id="6_x3wgy"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vgqql"]
 atlas = ExtResource("2_6t5aa")
