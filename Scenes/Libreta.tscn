@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://bgyy8ls1ll46a"]
+
+[ext_resource type="Script" uid="uid://vyxbci3m6e7f" path="res://Scripts/libreta.gd" id="1_l6jsr"]
+
+[node name="Libreta" type="CanvasLayer" unique_id=1231893705]
+script = ExtResource("1_l6jsr")
+
+[node name="Fondo" type="ColorRect" parent="." unique_id=2104299848]
+offset_left = 185.0
+offset_top = 171.0
+offset_right = 666.0
+offset_bottom = 534.0
+color = Color(0.6101572, 0.67625695, 0.9274666, 1)
+
+[node name="Lista" type="VBoxContainer" parent="Fondo" unique_id=713292900]
+layout_mode = 0
+offset_left = 74.0
+offset_top = 49.0
+offset_right = 400.0
+offset_bottom = 295.0

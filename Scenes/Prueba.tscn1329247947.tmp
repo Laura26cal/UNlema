@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dq7bfmrkqxify"]
+
+[ext_resource type="PackedScene" uid="uid://bfusjjvmogk41" path="res://Scenes/player.tscn" id="1_bj1il"]
+[ext_resource type="PackedScene" uid="uid://bgyy8ls1ll46a" path="res://Scenes/Libreta.tscn" id="2_8qtaw"]
+
+[node name="Prueba" type="Node2D" unique_id=363228480]
+
+[node name="spawn" type="Marker2D" parent="." unique_id=799153419]
+position = Vector2(578, 258)
+
+[node name="Player" parent="." unique_id=2048675681 instance=ExtResource("1_bj1il")]
+position = Vector2(711, 201)
+
+[node name="Libreta" parent="." unique_id=1231893705 instance=ExtResource("2_8qtaw")]
