@@ -15,9 +15,9 @@ func _on_back_button_pressed():
 
 
 func _on_character_1_button_pressed():
-	GameData.selected_character = "creative"
+	Global.personaje_elegido = "creative"
 	get_tree().change_scene_to_file("res://Scenes/character_setup.tscn")
 
 func _on_character_2_button_pressed():
-	GameData.selected_character = "strategist"
+	Global.personaje_elegido = "strategist"
 	get_tree().change_scene_to_file("res://Scenes/character_setup.tscn")

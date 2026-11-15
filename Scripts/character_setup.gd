@@ -24,7 +24,7 @@ func _ready():
 
 
 func update_character_info():
-	var character = CHARACTERS.get(GameData.selected_character, {})
+	var character = CHARACTERS.get(Global.personaje_elegido, {})
 	
 	if character.is_empty():
 		push_error("No se encontró información del personaje seleccionado.")
