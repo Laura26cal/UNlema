@@ -1,0 +1,91 @@
+[gd_scene format=3 uid="uid://byx30auug6nxe"]
+
+[ext_resource type="Script" uid="uid://bdnyf0b14i7ek" path="res://Scripts/intro_screen.gd" id="1_vxnr6"]
+
+[node name="IntroScreen" type="Control" unique_id=1360528829]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_vxnr6")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=333721612]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=2071464012]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer" unique_id=86775211]
+layout_mode = 2
+
+[node name="TerminalPanel" type="RichTextLabel" parent="MarginContainer/HBoxContainer" unique_id=1939167466]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 5.0
+bbcode_enabled = true
+
+[node name="CenterPanel" type="VBoxContainer" parent="MarginContainer/HBoxContainer" unique_id=1570100594]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 3.0
+
+[node name="WelcomeLabel" type="Label" parent="MarginContainer/HBoxContainer/CenterPanel" unique_id=586441248]
+layout_mode = 2
+
+[node name="MapPlaceholder" type="ColorRect" parent="MarginContainer/HBoxContainer/CenterPanel" unique_id=743689559]
+custom_minimum_size = Vector2(240, 150)
+layout_mode = 2
+color = Color(0.0627451, 0.1254902, 0.08235294, 1)
+
+[node name="ConnectionProgress" type="ProgressBar" parent="MarginContainer/HBoxContainer/CenterPanel" unique_id=1024044068]
+custom_minimum_size = Vector2(0, 18)
+layout_mode = 2
+value = 72.0
+show_percentage = false
+
+[node name="ObjectivePanel" type="PanelContainer" parent="MarginContainer/HBoxContainer/CenterPanel" unique_id=915236583]
+layout_mode = 2
+
+[node name="StatusLabel" type="Label" parent="MarginContainer/HBoxContainer/CenterPanel" unique_id=939491193]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.39607844, 1, 0.39607844, 1)
+text = "Status: Active"
+
+[node name="SymbolsLabel" type="Label" parent="MarginContainer/HBoxContainer" unique_id=976017925]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+size_flags_stretch_ratio = 2.0
+theme_override_colors/font_color = Color(0.39607844, 1, 0.39607844, 1)
+text = "NETWORK ACTIVITY
+
+01001001
+10110100
+00101101
+11001010
+
+// SCANNING...
+
+SIGNAL: ACTIVE
+ENCRYPTION: ON
+
+[####....]
+[######..]
+[###.....]
+
+ACCESS: GRANTED"
+horizontal_alignment = 1
+autowrap_mode = 2
