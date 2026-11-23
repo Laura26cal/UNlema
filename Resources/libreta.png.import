@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bwsld6a66txjg"
-path="res://.godot/imported/tileset casa.png-0f0893921f79fa69596a35fd234da156.ctex"
+uid="uid://cxbkwxphwufi5"
+path="res://.godot/imported/libreta.png-5081d2645b2b6017fbe370ff201ea2ae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tileset casa.png"
-dest_files=["res://.godot/imported/tileset casa.png-0f0893921f79fa69596a35fd234da156.ctex"]
+source_file="res://Resources/libreta.png"
+dest_files=["res://.godot/imported/libreta.png-5081d2645b2b6017fbe370ff201ea2ae.ctex"]
 
 [params]
 

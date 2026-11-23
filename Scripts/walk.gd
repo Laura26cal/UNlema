@@ -6,6 +6,9 @@ func start():
 	controlled_node.actualizar_animacion()
 
 func on_physics_process(delta):
+	if Global.libreta_abierta:
+		state_machine.change_to("Idle")
+		return
 	var dir = Input.get_vector(
 		"left",
 		"right",

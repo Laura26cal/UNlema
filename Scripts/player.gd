@@ -32,22 +32,9 @@ func _ready():
 func actualizar_animacion():
 	var nombre := ""
 	if se_mueve:
-		nombre = (
-			skin
-			+ "_caminar_"
-			+ direccion_str
-		)
+		nombre = skin + "_caminar_" + direccion_str
 	else:
-		if direccion_str == "arriba":
-			nombre = (
-				skin
-				+ "_quieto_arriba"
-			)
-		else:
-			nombre = (
-				skin
-				+ "_quieto_abajo"
-			)
+		nombre = skin + "_quieto_" + direccion_str
 	if anim.animation != nombre:
 		anim.play(nombre)
 		

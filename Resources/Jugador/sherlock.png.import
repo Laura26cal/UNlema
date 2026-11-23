@@ -2,16 +2,26 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<<< HEAD:Assets/Characters/Sherlock/sherlock.png.import
 uid="uid://bfpl77j3n7das"
 path="res://.godot/imported/sherlock.png-2d0448b5abdfe1db77b84e81f6b8f3c9.ctex"
+========
+uid="uid://de33pshltc436"
+path="res://.godot/imported/sherlock.png-641c79b0b65b4f498cb6ae21ad07f7a6.ctex"
+>>>>>>>> ecc250632ff7ceeb1612fa29df5409eccb75cafb:Resources/Jugador/sherlock.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
+<<<<<<<< HEAD:Assets/Characters/Sherlock/sherlock.png.import
 source_file="res://Assets/Characters/Sherlock/sherlock.png"
 dest_files=["res://.godot/imported/sherlock.png-2d0448b5abdfe1db77b84e81f6b8f3c9.ctex"]
+========
+source_file="res://Resources/Jugador/sherlock.png"
+dest_files=["res://.godot/imported/sherlock.png-641c79b0b65b4f498cb6ae21ad07f7a6.ctex"]
+>>>>>>>> ecc250632ff7ceeb1612fa29df5409eccb75cafb:Resources/Jugador/sherlock.png.import
 
 [params]
 
