@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://bfusjjvmogk41" path="res://Scenes/player.tscn" id="1_bj1il"]
 [ext_resource type="PackedScene" uid="uid://bgyy8ls1ll46a" path="res://Scenes/Libreta.tscn" id="2_8qtaw"]
 [ext_resource type="Texture2D" uid="uid://bwsld6a66txjg" path="res://Resources/tileset casa.png" id="3_bulm4"]
+[ext_resource type="PackedScene" uid="uid://bogv2v70l3xg" path="res://Scenes/BarraSospecha.tscn" id="4_ckhxu"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ckhxu"]
 texture = ExtResource("3_bulm4")
@@ -71,3 +72,5 @@ tile_map_data = PackedByteArray("AAAEAA0AAgABAAEAAAAEAA4AAgABAAEAAAAEAA8AAgABAAE
 tile_set = SubResource("TileSet_2w68d")
 y_sort_origin = -10
 rendering_quadrant_size = 32
+
+[node name="BarraSospecha" parent="." unique_id=1071959872 instance=ExtResource("4_ckhxu")]

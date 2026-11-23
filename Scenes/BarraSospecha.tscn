@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bogv2v70l3xg"]
+
+[ext_resource type="Texture2D" uid="uid://ckeqy15w8uvk4" path="res://Resources/BarraSospecha_Borde.png" id="1_jnesl"]
+[ext_resource type="Script" uid="uid://biy5ikfotk7xx" path="res://Scenes/barra_sospecha.gd" id="1_s8385"]
+[ext_resource type="Texture2D" uid="uid://bednmsc57jmf7" path="res://Resources/BarraSospecha_Relleno_recortado.png" id="2_s8385"]
+
+[node name="BarraSospecha" type="CanvasLayer" unique_id=1071959872]
+script = ExtResource("1_s8385")
+
+[node name="Barra" type="TextureProgressBar" parent="." unique_id=868373603]
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 88.0
+offset_bottom = 48.0
+scale = Vector2(2, 2)
+texture_over = ExtResource("1_jnesl")
+texture_progress = ExtResource("2_s8385")
+texture_progress_offset = Vector2(17, 5)
