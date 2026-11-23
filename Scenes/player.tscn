@@ -1,13 +1,13 @@
 [gd_scene format=3 uid="uid://bfusjjvmogk41"]
 
 [ext_resource type="Script" uid="uid://dmvpu4uknhy0v" path="res://Scripts/player.gd" id="1_cvnsp"]
-[ext_resource type="Texture2D" uid="uid://bfpl77j3n7das" path="res://sherlock.png" id="2_3smsa"]
+[ext_resource type="Texture2D" uid="uid://bfpl77j3n7das" path="res://Assets/Characters/Sherlock/sherlock.png" id="2_3smsa"]
 [ext_resource type="Texture2D" uid="uid://broci3hfjmsih" path="res://Assets/player/npcEspecial.png" id="2_6t5aa"]
 [ext_resource type="Script" uid="uid://ba8d6j3qlu5dx" path="res://Scripts/state_machine.gd" id="3_6t5aa"]
-[ext_resource type="Texture2D" uid="uid://b8kdymtqgrrjf" path="res://sherlock1.png" id="4_f1ek2"]
+[ext_resource type="Texture2D" uid="uid://b8kdymtqgrrjf" path="res://Assets/Characters/Sherlock/sherlock1.png" id="4_f1ek2"]
 [ext_resource type="Script" uid="uid://b4ie6dka3o4sy" path="res://Scripts/idle.gd" id="4_vgqql"]
 [ext_resource type="Script" uid="uid://bnw7wbccsq8pl" path="res://Scripts/walk.gd" id="5_fkybt"]
-[ext_resource type="Texture2D" uid="uid://b11t1tnvgpb5f" path="res://sherlock2.png" id="5_tx1dd"]
+[ext_resource type="Texture2D" uid="uid://b11t1tnvgpb5f" path="res://Assets/Characters/Sherlock/sherlock2.png" id="5_tx1dd"]
 [ext_resource type="Script" uid="uid://dem647cq8681y" path="res://Scripts/interactuar.gd" id="6_x3wgy"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wpjfl"]
