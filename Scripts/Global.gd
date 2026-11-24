@@ -9,7 +9,7 @@ const MAX_PISTAS := 5
 
 var nombre_jugador := ""
 var personaje_elegido := ""  
-
+var libreta_abierta := false
 var puntajes := {
 	"datos_mision1": 0,   
 	"hoja_vida": 0,

@@ -9,6 +9,8 @@ func start():
 	jugador.actualizar_animacion()
 
 func on_physics_process(delta: float) -> void:
+	if Global.libreta_abierta:
+		return
 	var dir = Input.get_vector(
 		"left",
 		"right",

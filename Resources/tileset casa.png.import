@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b11t1tnvgpb5f"
-path="res://.godot/imported/sherlock2.png-b38bca586ade4362bd419316aeb44ceb.ctex"
+uid="uid://bwsld6a66txjg"
+path="res://.godot/imported/tileset casa.png-baea65ffcebaeb62f5fcf788d8c8ae93.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sherlock2.png"
-dest_files=["res://.godot/imported/sherlock2.png-b38bca586ade4362bd419316aeb44ceb.ctex"]
+source_file="res://Resources/tileset casa.png"
+dest_files=["res://.godot/imported/tileset casa.png-baea65ffcebaeb62f5fcf788d8c8ae93.ctex"]
 
 [params]
 
