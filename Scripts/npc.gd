@@ -1,6 +1,8 @@
 
 extends Area2D
 
+signal iniciar_conversacion(npc)
+
 @onready var interaction_prompt: Label = $InteractionPrompt
 
 var jugador_cerca: Player = null
@@ -24,3 +26,9 @@ func _on_body_exited(body):
 	if body == jugador_cerca:
 		jugador_cerca = null
 		interaction_prompt.hide()
+
+
+func _unhandled_input(event):
+	if event.is_action_pressed("interact") and jugador_cerca != null:
+		iniciar_conversacion.emit(self)
+		

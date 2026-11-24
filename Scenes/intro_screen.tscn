@@ -25,6 +25,7 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_bottom = 209.0
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -72,19 +73,11 @@ size_flags_stretch_ratio = 2.0
 theme_override_colors/font_color = Color(0.39607844, 1, 0.39607844, 1)
 text = "NETWORK ACTIVITY
 
-01001001
-10110100
-00101101
-11001010
-
 // SCANNING...
 
 SIGNAL: ACTIVE
 ENCRYPTION: ON
 
-[####....]
-[######..]
-[###.....]
 
 ACCESS: GRANTED"
 horizontal_alignment = 1
