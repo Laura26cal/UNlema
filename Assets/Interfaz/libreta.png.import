@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://broci3hfjmsih"
-path="res://.godot/imported/npcEspecial.png-e95472e48170b7eda3ce164930812a73.ctex"
+uid="uid://cxbkwxphwufi5"
+path="res://.godot/imported/libreta.png-0344be55c2b872264e001702d2a01b4a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/player/npcEspecial.png"
-dest_files=["res://.godot/imported/npcEspecial.png-e95472e48170b7eda3ce164930812a73.ctex"]
+source_file="res://Assets/Interfaz/libreta.png"
+dest_files=["res://.godot/imported/libreta.png-0344be55c2b872264e001702d2a01b4a.ctex"]
 
 [params]
 

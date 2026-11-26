@@ -8,7 +8,7 @@ var posicion_inicio: Vector2
 var posicion_anterior: Vector2
 
 # Movimiento
-var speed := 120.0
+@export var speed := 150.0
 var celda := 32
 var se_mueve := false
 
@@ -19,10 +19,6 @@ var direccion_str := "abajo"
 # Control
 var bloqueado := false
 var skin := "1"
-
-
-
-
 
 func _ready():
 	posicion_inicio = spawn.global_position

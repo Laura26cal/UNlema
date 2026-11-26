@@ -1,54 +1,17 @@
 [gd_scene format=4 uid="uid://b1qh4b3u2emw0"]
 
 [ext_resource type="Script" uid="uid://s13uuh2a5xr8" path="res://Scripts/sala.gd" id="1_lpnc2"]
-[ext_resource type="Texture2D" uid="uid://bwsld6a66txjg" path="res://Assets/tileset casa.png" id="2_sl8of"]
 [ext_resource type="PackedScene" uid="uid://bfusjjvmogk41" path="res://Scenes/player.tscn" id="3_dbyv1"]
+[ext_resource type="TileSet" uid="uid://c2ogeg7qty3ys" path="res://Assets/Entorno/tilesets/TileBase.tres" id="3_sl8of"]
 [ext_resource type="PackedScene" uid="uid://bgyy8ls1ll46a" path="res://Scenes/Libreta.tscn" id="4_p0khc"]
 [ext_resource type="PackedScene" uid="uid://bogv2v70l3xg" path="res://Scenes/BarraSospecha.tscn" id="5_gbtlg"]
 [ext_resource type="PackedScene" uid="uid://u3uohamsx4y" path="res://Scenes/Puerta.tscn" id="6_sl8of"]
-
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ckhxu"]
-texture = ExtResource("2_sl8of")
-texture_region_size = Vector2i(32, 32)
-0:0/0 = 0
-0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, -8.176586, -8.46838, -7.199463, -10.096912, 16, -16, 16)
-1:0/0 = 0
-1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, -8.176586, -8.46838, -7.199463, -10.096912, 16, -16, 16)
-2:0/0 = 0
-2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
-0:1/0 = 0
-0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, -10.422619, -16, -10.096912, 16, -16, 16)
-1:1/0 = 0
-2:1/0 = 0
-2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(11.074032, -16, 16, -16, 16, 16, 11.399738, 16)
-0:2/0 = 0
-0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
-1:2/0 = 0
-1:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
-2:2/0 = 0
-2:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
-0:3/0 = 0
-0:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
-1:3/0 = 0
-2:3/0 = 0
-2:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
-0:4/0 = 0
-1:4/0 = 0
-1:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
-2:4/0 = 0
-1:5/0 = 0
-1:6/0 = 0
-
-[sub_resource type="TileSet" id="TileSet_2w68d"]
-tile_size = Vector2i(32, 32)
-physics_layer_0/collision_layer = 1
-sources/4 = SubResource("TileSetAtlasSource_ckhxu")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dbyv1"]
 size = Vector2(11.600006, 61.299988)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lpnc2"]
-size = Vector2(61.99997, 31.200043)
+size = Vector2(53.20012, 31.200043)
 
 [node name="Impresion" type="Node2D" unique_id=363228480]
 scale = Vector2(2.5, 2.5)
@@ -61,9 +24,17 @@ position = Vector2(-216, 104.8)
 z_index = -10
 y_sort_enabled = true
 scale = Vector2(0.9999998, 0.9999998)
-tile_map_data = PackedByteArray("AAAOAAgABAABAAEAAAAOAAkABAABAAEAAAAOAAoABAABAAEAAAAOAAsABAABAAEAAAAPAAgABAABAAEAAAAPAAkABAABAAEAAAAPAAoABAABAAEAAAAPAAsABAABAAEAAAAQAAgABAABAAEAAAAQAAkABAABAAEAAAAQAAoABAABAAEAAAAQAAsABAABAAEAAAARAAUABAABAAEAAAARAAYABAABAAEAAAARAAcABAABAAEAAAARAAgABAABAAEAAAARAAkABAABAAEAAAARAAoABAABAAEAAAARAAsABAABAAEAAAASAAUABAABAAEAAAASAAYABAABAAEAAAASAAcABAABAAEAAAASAAgABAABAAEAAAASAAkABAABAAEAAAASAAoABAABAAEAAAASAAsABAABAAEAAAATAAUABAABAAEAAAATAAYABAABAAEAAAATAAcABAABAAEAAAATAAgABAABAAEAAAATAAkABAABAAEAAAATAAoABAABAAEAAAATAAsABAABAAEAAAAUAAUABAABAAEAAAAVAAUABAABAAEAAAAVAAYABAABAAEAAAAVAAcABAABAAEAAAAVAAgABAABAAEAAAAVAAkABAABAAEAAAAVAAoABAABAAEAAAAUAAoABAABAAEAAAAUAAkABAABAAEAAAAUAAgABAABAAEAAAAUAAcABAABAAEAAAAUAAYABAABAAEAAAAUAAsABAABAAEAAAAVAAsABAABAAEAAAARAAQABAABAAEAAAASAAQABAABAAEAAAATAAQABAABAAEAAAAUAAQABAABAAEAAAAVAAQABAABAAEAAAA=")
-tile_set = SubResource("TileSet_2w68d")
+tile_map_data = PackedByteArray("AAAOAAgAAgABAAEAAAAOAAkAAgABAAEAAAAOAAoAAgABAAEAAAAOAAsAAgABAAEAAAAPAAgAAgABAAEAAAAPAAkAAgABAAEAAAAPAAoAAgABAAEAAAAPAAsAAgABAAEAAAAQAAgAAgABAAEAAAAQAAkAAgABAAEAAAAQAAoAAgABAAEAAAAQAAsAAgABAAEAAAARAAUAAgABAAEAAAARAAYAAgABAAEAAAARAAcAAgABAAEAAAARAAgAAgABAAEAAAARAAkAAgABAAEAAAARAAoAAgABAAEAAAARAAsAAgABAAEAAAASAAUAAgABAAEAAAASAAYAAgABAAEAAAASAAcAAgABAAEAAAASAAgAAgABAAEAAAASAAkAAgABAAEAAAASAAoAAgABAAEAAAASAAsAAgABAAEAAAATAAUAAgABAAEAAAATAAYAAgABAAEAAAATAAcAAgABAAEAAAATAAgAAgABAAEAAAATAAkAAgABAAEAAAATAAoAAgABAAEAAAATAAsAAgABAAEAAAAUAAUAAgABAAEAAAAVAAUAAgABAAEAAAAVAAYAAgABAAEAAAAVAAcAAgABAAEAAAAVAAgAAgABAAEAAAAVAAkAAgABAAEAAAAVAAoAAgABAAEAAAAUAAoAAgABAAEAAAAUAAkAAgABAAEAAAAUAAgAAgABAAEAAAAUAAcAAgABAAEAAAAUAAYAAgABAAEAAAAUAAsAAgABAAEAAAAVAAsAAgABAAEAAAARAAQAAgABAAEAAAASAAQAAgABAAEAAAATAAQAAgABAAEAAAAUAAQAAgABAAEAAAAVAAQAAgABAAEAAAA=")
+tile_set = ExtResource("3_sl8of")
 y_sort_origin = -10
+rendering_quadrant_size = 32
+
+[node name="Paredes" type="TileMapLayer" parent="." unique_id=1812391653]
+z_index = -6
+y_sort_enabled = true
+scale = Vector2(0.99999994, 0.99999994)
+tile_map_data = PackedByteArray("AAAOAAgAAgACAAMAAAAPAAgAAgABAAAAAAAQAAgAAgABAAAAAAARAAQAAgAAAAAAAAARAAUAAgAAAAEAAAARAAYAAgAAAAEAAAARAAcAAgAAAAEAAAARAAsAAgABAAIAAAASAAQAAgABAAAAAAASAAsAAgABAAIAAAATAAQAAgABAAAAAAATAAsAAgABAAIAAAAUAAQAAgABAAAAAAAUAAsAAgABAAIAAAAVAAQAAgACAAAAAAAVAAUAAgACAAEAAAAVAAYAAgACAAEAAAAVAAcAAgACAAEAAAAVAAgAAgACAAEAAAAVAAkAAgACAAEAAAAVAAoAAgACAAEAAAAVAAsAAgACAAIAAAARAAgAAgAAAAUAAAAQAAsAAgACAAMAAAA=")
+tile_set = ExtResource("3_sl8of")
 rendering_quadrant_size = 32
 
 [node name="Player" parent="." unique_id=2048675681 instance=ExtResource("3_dbyv1")]
@@ -73,15 +44,6 @@ position = Vector2(-217.59998, 106.4)
 
 [node name="Libreta" parent="." unique_id=1231893705 instance=ExtResource("4_p0khc")]
 visible = false
-
-[node name="Paredes" type="TileMapLayer" parent="." unique_id=1812391653]
-z_index = -6
-y_sort_enabled = true
-position = Vector2(-247.19998, -29.199999)
-tile_map_data = PackedByteArray("AAAaAAUABAABAAAAAAAbAAUABAABAAAAAAAcAAUABAABAAAAAAAYAAwABAABAAIAAAAZAAwABAABAAIAAAAaAAwABAABAAIAAAAbAAwABAABAAIAAAAWAAkABAABAAIAAAAXAAkABAABAAIAAAAdAAYABAACAAEAAAAdAAsABAACAAEAAAAdAAwABAABAAAAAAAdAAcABAACAAEAAAAdAAgABAACAAEAAAAdAAkABAACAAEAAAAdAAoABAACAAEAAAAdAAUABAACAAAAAAAcAAwABAABAAAAAAAZAAYABAAAAAEAAAAZAAcABAAAAAEAAAAZAAgABAAAAAEAAAAZAAUABAAAAAAAAAAYAAkABAABAAAAAAA=")
-tile_set = SubResource("TileSet_2w68d")
-y_sort_origin = -6
-rendering_quadrant_size = 32
 
 [node name="BarraSospecha" parent="." unique_id=1071959872 instance=ExtResource("5_gbtlg")]
 
@@ -103,7 +65,7 @@ escena_destino = "uid://dhqon20an6ih3"
 punto_entrada_destino = "EntradaDesdeImpresion"
 
 [node name="CollisionShape2D" parent="Puerta2" index="0" unique_id=1535068903]
-position = Vector2(489.79984, 368.39993)
+position = Vector2(485.39993, 368.39987)
 scale = Vector2(0.99999976, 0.99999976)
 shape = SubResource("RectangleShape2D_lpnc2")
 

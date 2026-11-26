@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d0m11l2c6h5uf"
-path="res://.godot/imported/sherlock.png-ecbf72d5962f5237509f6393a359f1cc.ctex"
+uid="uid://broci3hfjmsih"
+path="res://.godot/imported/npcEspecial.png-ed5a68b96f2d928f6a6c10a614632326.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/sherlock.png"
-dest_files=["res://.godot/imported/sherlock.png-ecbf72d5962f5237509f6393a359f1cc.ctex"]
+source_file="res://Assets/Characters/npcs/npcEspecial.png"
+dest_files=["res://.godot/imported/npcEspecial.png-ed5a68b96f2d928f6a6c10a614632326.ctex"]
 
 [params]
 

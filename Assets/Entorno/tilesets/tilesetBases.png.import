@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cxbkwxphwufi5"
-path="res://.godot/imported/libreta.png-26a08ed333bf4c84ca0248331096b4a0.ctex"
+uid="uid://dd6d0pl6w1dt5"
+path="res://.godot/imported/tilesetBases.png-3449946373cd5b65a267818b5ea82a94.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/libreta.png"
-dest_files=["res://.godot/imported/libreta.png-26a08ed333bf4c84ca0248331096b4a0.ctex"]
+source_file="res://Assets/Entorno/tilesets/tilesetBases.png"
+dest_files=["res://.godot/imported/tilesetBases.png-3449946373cd5b65a267818b5ea82a94.ctex"]
 
 [params]
 

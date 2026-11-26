@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bednmsc57jmf7"
-path="res://.godot/imported/BarraSospecha_Relleno_recortado.png-fc39da48beb2e67fac44ec9ce7adefe1.ctex"
+uid="uid://0uy2dquba05"
+path="res://.godot/imported/tileset Objetos.png-06a670670a0a84557b9a34faabed95f0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/BarraSospecha_Relleno_recortado.png"
-dest_files=["res://.godot/imported/BarraSospecha_Relleno_recortado.png-fc39da48beb2e67fac44ec9ce7adefe1.ctex"]
+source_file="res://Assets/Entorno/tilesets/tileset Objetos.png"
+dest_files=["res://.godot/imported/tileset Objetos.png-06a670670a0a84557b9a34faabed95f0.ctex"]
 
 [params]
 

@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bfusjjvmogk41"]
 
 [ext_resource type="Script" uid="uid://dmvpu4uknhy0v" path="res://Scripts/player.gd" id="1_cvnsp"]
-[ext_resource type="Texture2D" uid="uid://d0m11l2c6h5uf" path="res://Assets/Characters/sherlock.png" id="2_x3wgy"]
+[ext_resource type="Texture2D" uid="uid://d0m11l2c6h5uf" path="res://Assets/Characters/player/sherlock.png" id="2_x3wgy"]
 [ext_resource type="Script" uid="uid://ba8d6j3qlu5dx" path="res://Scripts/state_machine.gd" id="3_6t5aa"]
 [ext_resource type="Script" uid="uid://b4ie6dka3o4sy" path="res://Scripts/idle.gd" id="4_vgqql"]
 [ext_resource type="Script" uid="uid://bnw7wbccsq8pl" path="res://Scripts/walk.gd" id="5_fkybt"]
@@ -275,18 +275,17 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_76j7d"]
+size = Vector2(12, 9)
 
 [node name="Player" type="CharacterBody2D" unique_id=2048675681]
 script = ExtResource("1_cvnsp")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=447794036]
 sprite_frames = SubResource("SpriteFrames_0kj74")
-animation = &"1_quieto_der"
-frame = 3
-frame_progress = 0.48722333
+animation = &"1_quieto_abajo"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=805500403]
-visible = false
+position = Vector2(0, 5.5)
 shape = SubResource("RectangleShape2D_76j7d")
 
 [node name="StateMachine" type="Node" parent="." unique_id=1719366485 node_paths=PackedStringArray("default_state")]

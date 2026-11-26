@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ckeqy15w8uvk4"
-path="res://.godot/imported/BarraSospecha_Borde.png-e9fa9de5c5193770dbde3a0edcc98b90.ctex"
+uid="uid://d0p5olklc3ta8"
+path="res://.godot/imported/tilesetBase.png-55b38796e050e02ebec5f84e48d3f407.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/BarraSospecha_Borde.png"
-dest_files=["res://.godot/imported/BarraSospecha_Borde.png-e9fa9de5c5193770dbde3a0edcc98b90.ctex"]
+source_file="res://Assets/Entorno/tilesets/tilesetBase.png"
+dest_files=["res://.godot/imported/tilesetBase.png-55b38796e050e02ebec5f84e48d3f407.ctex"]
 
 [params]
 
