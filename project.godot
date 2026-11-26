@@ -34,7 +34,7 @@ project/assembly_name="UNlema"
 [file_customization]
 
 folder_colors={
-"res://Resources/": "green",
+"res://Assets/": "green",
 "res://Scenes/": "red",
 "res://Scripts/": "gray"
 }

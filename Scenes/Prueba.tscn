@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://bfusjjvmogk41" path="res://Scenes/player.tscn" id="1_bj1il"]
 [ext_resource type="Script" uid="uid://d0x5dik63rgcy" path="res://Scripts/prueba.gd" id="1_xhdf6"]
 [ext_resource type="PackedScene" uid="uid://bgyy8ls1ll46a" path="res://Scenes/Libreta.tscn" id="2_8qtaw"]
-[ext_resource type="Texture2D" uid="uid://bwsld6a66txjg" path="res://Resources/tileset casa.png" id="3_bulm4"]
+[ext_resource type="Texture2D" uid="uid://bwsld6a66txjg" path="res://Assets/tileset casa.png" id="3_bulm4"]
 [ext_resource type="PackedScene" uid="uid://bogv2v70l3xg" path="res://Scenes/BarraSospecha.tscn" id="5_vbm10"]
 [ext_resource type="PackedScene" uid="uid://bo5acxataio2" path="res://Scenes/NPC.tscn" id="6_5prc7"]
 

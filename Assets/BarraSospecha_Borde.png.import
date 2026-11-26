@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cxbkwxphwufi5"
-path="res://.godot/imported/libreta.png-5081d2645b2b6017fbe370ff201ea2ae.ctex"
+uid="uid://ckeqy15w8uvk4"
+path="res://.godot/imported/BarraSospecha_Borde.png-e9fa9de5c5193770dbde3a0edcc98b90.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Resources/libreta.png"
-dest_files=["res://.godot/imported/libreta.png-5081d2645b2b6017fbe370ff201ea2ae.ctex"]
+source_file="res://Assets/BarraSospecha_Borde.png"
+dest_files=["res://.godot/imported/BarraSospecha_Borde.png-e9fa9de5c5193770dbde3a0edcc98b90.ctex"]
 
 [params]
 

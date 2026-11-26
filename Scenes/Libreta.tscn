@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bgyy8ls1ll46a"]
 
 [ext_resource type="Script" uid="uid://vyxbci3m6e7f" path="res://Scripts/libreta.gd" id="1_l6jsr"]
-[ext_resource type="Texture2D" path="res://Resources/libreta.png" id="2_6rg5t"]
+[ext_resource type="Texture2D" uid="uid://cxbkwxphwufi5" path="res://Assets/libreta.png" id="2_6rg5t"]
 
 [node name="Libreta" type="CanvasLayer" unique_id=1231893705]
 script = ExtResource("1_l6jsr")

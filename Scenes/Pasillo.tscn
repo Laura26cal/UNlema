@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://dhqon20an6ih3"]
 
 [ext_resource type="Script" uid="uid://s13uuh2a5xr8" path="res://Scripts/sala.gd" id="1_n2ld6"]
-[ext_resource type="Texture2D" uid="uid://bwsld6a66txjg" path="res://Resources/tileset casa.png" id="2_1mj23"]
+[ext_resource type="Texture2D" uid="uid://bwsld6a66txjg" path="res://Assets/tileset casa.png" id="2_1mj23"]
 [ext_resource type="PackedScene" uid="uid://bfusjjvmogk41" path="res://Scenes/player.tscn" id="3_wygtr"]
 [ext_resource type="PackedScene" uid="uid://bgyy8ls1ll46a" path="res://Scenes/Libreta.tscn" id="4_1b730"]
 [ext_resource type="PackedScene" uid="uid://bogv2v70l3xg" path="res://Scenes/BarraSospecha.tscn" id="5_idw2q"]

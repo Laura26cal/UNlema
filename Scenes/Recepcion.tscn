@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://b36khxue4s3fn"]
 
 [ext_resource type="Script" uid="uid://s13uuh2a5xr8" path="res://Scripts/sala.gd" id="1_grvtj"]
-[ext_resource type="Texture2D" uid="uid://bwsld6a66txjg" path="res://Resources/tileset casa.png" id="2_jfcxx"]
+[ext_resource type="Texture2D" uid="uid://bwsld6a66txjg" path="res://Assets/tileset casa.png" id="2_jfcxx"]
 [ext_resource type="PackedScene" uid="uid://bfusjjvmogk41" path="res://Scenes/player.tscn" id="3_pih52"]
 [ext_resource type="PackedScene" uid="uid://bgyy8ls1ll46a" path="res://Scenes/Libreta.tscn" id="4_efq0k"]
 [ext_resource type="PackedScene" uid="uid://bogv2v70l3xg" path="res://Scenes/BarraSospecha.tscn" id="5_2uvna"]
@@ -75,10 +75,8 @@ visible = false
 [node name="Paredes" type="TileMapLayer" parent="." unique_id=1812391653]
 z_index = -6
 y_sort_enabled = true
-position = Vector2(-247.19998, -29.199999)
-tile_map_data = PackedByteArray("AAABAAAABAABAAAAAAACAAAABAABAAAAAAADAAAABAABAAAAAAAEAAAABAABAAAAAAAFAAAABAABAAAAAAAHAAAABAABAAAAAAAIAAAABAABAAAAAAAJAAEABAACAAEAAAAJAAIABAACAAEAAAAJAAMABAACAAEAAAAJAAAABAACAAAAAAABAAgABAABAAAAAAACAAgABAABAAAAAAADAAgABAABAAAAAAAEAAgABAABAAAAAAAFAAgABAABAAAAAAAGAAgABAABAAAAAAAHAAgABAABAAAAAAAIAAgABAABAAAAAAAAAAcABAAAAAEAAAAAAAgABAAAAAAAAAAJAAcABAACAAEAAAAJAAYABAACAAEAAAAJAAgABAABAAAAAAAGAAAABAABAAAAAAAAAAAABAAAAAAAAAAAAAEABAAAAAEAAAAAAAIABAAAAAEAAAAAAAMABAAAAAEAAAAAAAYABAAAAAEAAAAAAAUABAAAAAEAAAAAAAQABAAAAAEAAAA=")
+tile_map_data = PackedByteArray("AAAAAAcABAABAAAAAAABAAAABAACAAEAAAD4////BAAAAAAAAAD4/wAABAAAAAEAAAD4/wEABAAAAAEAAAD4/wIABAAAAAEAAAD4/wMABAAAAAEAAAD4/wQABAAAAAEAAAD4/wUABAAAAAEAAAD4/wYABAAAAAEAAAD4/wcABAAAAAAAAAD5////BAABAAAAAAD5/wcABAABAAAAAAD6////BAABAAAAAAD6/wcABAABAAAAAAD7////BAABAAAAAAD7/wcABAABAAAAAAD8////BAABAAAAAAD8/wcABAABAAAAAAD9////BAABAAAAAAD9/wcABAABAAAAAAD+////BAABAAAAAAD+/wcABAABAAAAAAD/////BAABAAAAAAD//wcABAABAAAAAAAAAP//BAABAAAAAAABAP//BAACAAAAAAABAAEABAACAAEAAAABAAIABAACAAEAAAABAAUABAACAAEAAAABAAYABAACAAEAAAABAAcABAABAAAAAAA=")
 tile_set = SubResource("TileSet_2w68d")
-y_sort_origin = -6
 rendering_quadrant_size = 32
 
 [node name="BarraSospecha" parent="." unique_id=1071959872 instance=ExtResource("5_2uvna")]
